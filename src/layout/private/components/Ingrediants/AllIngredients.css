@@ -1,0 +1,172 @@
+.ingrediant-control {
+    display: flex;
+    justify-content: space-between;
+    height: 90%;
+}
+.ingredient-func-control {
+    width: 100%; 
+    display: flex;
+}
+
+.filter-container {
+    display: flex;
+    margin: 10px 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ingredient-list {
+    width: 55%;
+    height: 90%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.061); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.157); 
+}
+
+.title-container{
+    width: 25%;
+    height: 90%;
+    padding: 0 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ingrediant-title {
+    font-size: 60px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.ingrediant-btn {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btn-basket{
+    padding: 7px;
+    margin-right: 5%;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    width: 120px;
+    border-radius: 15px;
+    color: white;
+    background-color: #7bb801;
+    border: none;
+    text-align: center;
+}
+.btn-basket:hover,
+.btn-basket:active {
+    background-color: #7bb801be;
+}
+
+.btn-make-salad {
+    padding: 7px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    width: 140px;
+    border-radius: 15px;
+    color: white;
+    background-color: #7bb801;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-make-salad:hover,
+.btn-make-salad:active {
+    background-color: #7bb801be;
+}
+
+@media (max-width: 1050px) {
+
+    .ingredient-list {
+        max-height: 400px;
+    }
+    .title-container {
+        height: 400px;
+    }
+    .item-desc {
+        width: auto;
+    }
+    .ingredient-item {
+        min-width: 380px;
+        padding-right: 10px;
+
+    }
+}
+
+@media (max-width: 882px) {
+    .ingrediant-control {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .ingredient-list{
+        width: 90%;
+    }
+    .title-container {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: start;
+    }
+    .ingrediant-title {
+        font-size: 20px;
+    }
+     .ingredient-list {
+        max-height: 380px;
+    }
+    .ingredient-func-control {
+        flex-direction: column-reverse;
+        padding: 10px;
+        width: 420px;
+    } 
+    .ingrediant-btn {
+        padding: 10px;
+        justify-content: start;
+    }
+}
+
+@media (max-width: 450px) {
+    .filter-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .sort {
+        padding-left: 20px;
+    }
+    .ingredient-list {
+        width: 100%;
+        overflow-x: visible;
+
+    }
+    .ingredient-item {
+        width: auto;
+        padding-right: 10px;
+
+    }
+
+}

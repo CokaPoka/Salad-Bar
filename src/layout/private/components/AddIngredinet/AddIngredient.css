@@ -1,0 +1,219 @@
+.ingredient-wrapper {
+    margin: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.ingredient-container {
+    padding: 40px;
+    border-radius: 30px;
+    height: 600px;
+    width: 1100px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.ingredient-container-control {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ingrediant-container-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.addIngredient-title-container {
+    width: 80%;
+    height: 40%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    padding-top: 10%;
+}
+
+.addIngredient-title{
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.ingrediant-img {
+    width: 100%;
+    height: auto; 
+}
+
+.ingredient-container-form {
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addIngrediant-form {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container-control {
+    width: 100%;
+    display: flex;
+}
+
+.addingredient-input {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    width: 90%;
+    background-color: #7bb80113;
+    border: none;
+}
+.addIngredient-name-container {
+        width: 65%;
+    }
+.addIngredient-calories-container {
+        width: 28%;
+    }
+.addingredient-input:focus{
+    font-size: 17px;
+}
+
+.addIngredient-form-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-submit {
+    padding: 7px;
+    margin: 15px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    width: 160px;
+    border-radius: 15px;
+    color: white;
+    background-color: #7bb801;
+    border: none;
+    text-align: center;
+}
+.btn-submit:hover,
+.btn-submit:active {
+    background-color: #7bb801be;
+}
+
+.all-ing-btn{
+    padding: 7px;
+    margin: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    width: 180px;
+    border-radius: 15px;
+    color: white;
+    background-color: #7bb801;
+    border: none;
+    text-align: center;
+}
+
+.all-ing-btn:hover,
+.all-ing-btn:active {
+    background-color: #7bb801be;
+}
+
+@media (max-width: 1194px) {
+    .ingredient-wrapper {
+        width: 95%;
+        margin: 80px 2%;
+    }
+   .ingredient-container {
+       width: 95%;
+   }
+   .ingredient-container-control {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+   .addIngredient-form-btns {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+   .btn-submit {
+       margin-bottom: 30px;
+   } 
+   
+}
+
+@media (max-width: 1050px) {
+    .ingredient-wrapper {
+        width: 95%;
+        margin: 80px 2%;
+        margin-bottom: 100px;
+    }
+    .ingredient-container {
+        height: auto;
+    }
+    .ingredient-container-form {
+        width: 90%;
+    }
+    .ingrediant-container-right {
+        display: none;
+    }
+
+    .ingredient-container-form {
+        width: 90%;
+    }
+    .addIngredient-title-container {
+        width: 80%; 
+        height: auto;
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    .addIngrediant-form {
+        height: auto;
+    }
+
+}
+
+@media (max-width: 700px) {
+    .input-container-control {
+        display: flex;
+        flex-direction: column;
+    }
+    .addIngredient-name-container {
+        width: 100%;
+    }
+    .addIngredient-calories-container {
+        width: 100%;
+    }
+    .ingredient-container {
+        padding: 40px 10px;
+    }
+    .ingredient-wrapper {
+        margin: 80px auto;
+    }
+}
+@media (max-width: 330px) {
+    .addIngrediant-form {
+        width: 100%;
+    }
+}

@@ -1,0 +1,24 @@
+.sort {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    align-items: center;
+}
+
+.btn-sort {
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    background-color: #7bb801;
+    border: none;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-sort:hover,
+.btn-sort:active {
+    background-color: #7bb801be;
+}

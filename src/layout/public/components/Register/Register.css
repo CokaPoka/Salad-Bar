@@ -1,0 +1,80 @@
+.register-wrapper {
+    margin: 20vh 150px;
+    padding: 20px;
+    width: 600px;
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.register-form {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.register-text {
+    text-align: center;
+}
+
+.register-input {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 10px;
+    padding: 7px;
+    font-size: 15px;
+    width: 300px;
+    background-color: #7bb80113;
+    border: none;
+}
+
+.register-input:focus {
+    font-size: 17px;
+}
+
+.btn-register {
+    padding: 7px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    width: 160px;
+    border-radius: 15px;
+    color: white;
+    background-color: #7bb801;
+    border: none;
+}
+
+.btn-register:hover,
+.btn-register:active {
+    background-color: #7bb801be;
+}
+
+p {
+    color: #5d5d5d;
+}
+
+@media (max-width: 1049px) {
+    .register-wrapper {
+    margin: 20px;
+    padding: 20px;
+    width: 600px;
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 30px;
+}
+}
+
+@media (max-width: 722px) {
+   .register-wrapper { 
+    width: 80%; 
+}
+   .register-input {
+       width: 90%;
+   }
+}

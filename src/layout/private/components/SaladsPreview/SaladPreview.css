@@ -1,0 +1,43 @@
+.salad-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.salad-list {
+    width: 55%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.salad-preview-container {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .salad-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .salad-list {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 300px;
+        overflow-x: auto;
+
+    }
+    .salad-preview-container {
+        width: 100%;
+        padding: 20px 15px;
+    }
+}

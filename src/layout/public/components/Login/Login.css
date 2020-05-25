@@ -1,0 +1,35 @@
+.login-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 515px;
+    padding-right: 10px;
+}
+
+.login-input {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 7px;
+    font-size: 15px;
+    width: 150px;
+}
+
+.login-input:focus {
+    font-size: 17px;
+}
+
+.btn-login {
+    padding: 7px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    width: 160px;
+    border-radius: 15px;
+    color: white;
+    background-color: #7bb801;
+    border: none;
+}
+
+.btn-login:hover,
+.btn-login:active {
+    background-color: #5d5d5da1;
+}
+

@@ -1,0 +1,47 @@
+.salad-item {
+    height: 150px;
+    width: 240px;
+    margin: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.329);
+    background-color: #7bb80113;  
+    text-align: center;
+}
+
+.salad-item-info {
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.salad-buttons {
+    width: 84%;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-salad-details {
+    width: 80px;
+    display: flex;
+    border: none;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #7bb801;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.btn-salad-details:hover,
+.btn-salad-details:active {
+    background-color: #7bb801be;
+}

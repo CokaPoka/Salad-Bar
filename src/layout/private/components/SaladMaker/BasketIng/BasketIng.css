@@ -1,0 +1,14 @@
+.basket-ing-container {
+    width: 100%;
+    height: 90%;
+}
+
+.basket-control {
+    width: 90%;
+    height: 90%;
+    margin-top: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+}
+

@@ -1,0 +1,70 @@
+.details-container {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-close {
+    width: 56px;
+    display: flex;
+    border: none;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin: 3px;
+    text-decoration: none;
+    color: white;
+    background-color: #c81912;
+    padding: 3px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.btn-close:hover,
+.btn-close:active {
+    background-color: #c8181296;
+}
+
+.details-ingredients-container {
+    width: 70%;
+    height: 45%;
+    overflow-y: auto;
+}
+
+.details-ingredient {
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.btn-close-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.details-info-container {
+    width: 100%;
+    height: 20%;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details-desc-container {
+    width: 80%;
+    height: 30%;
+    padding: 20px;
+    text-align: center;
+}
+
+.desc-container {
+    width: 100%;
+    height: 80%;
+    overflow-y: auto;
+}
+

@@ -1,0 +1,67 @@
+.home-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-logo-img {
+    height: 120px;
+    width: auto;
+    padding-top: 20px;
+}
+
+.home-login-container {
+    margin: 20px;
+    padding: 20px;
+    width: 600px;
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.home-login-form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-btn-login {
+    margin-top: 10px;
+    padding: 7px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    width: 160px;
+    border-radius: 15px;
+    color: white;
+    background-color: #7bb801;
+    border: none;
+}
+
+.home-btn-login:hover,
+.home-btn-login:active {
+    background-color: #7bb801be;
+}
+
+@media (min-width: 1050px) {
+    .home-logo-container {
+        display: none;
+    }
+    .home-wrapper {
+        display: inline;
+
+    }
+    .home-login-container {
+        display: none;
+    }
+}
+
+@media (max-width: 722px) {
+   .home-login-container { 
+    width: 80%; 
+}
+}
